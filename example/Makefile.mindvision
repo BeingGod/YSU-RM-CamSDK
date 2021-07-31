@@ -1,0 +1,32 @@
+CXX := clang++
+INCLUDE = -I$(WORKSPACE_FOLDER)/include
+CFLAGS = `pkg-config --cflags opencv` -std=c++14
+CFLAGS += -O0 # 使用O0优化
+CFLAGS += -D LINUX # 添加Linux宏定义
+LIBS = `pkg-config --libs opencv` -lpthread -lMVSDK
+TARGET = test_mindvision_camera
+OBJS_DIR = ${WORKSPACE_FOLDER}/objs
+
+OBJS = $(OBJS_DIR)/test_mindvision_camera.o
+OBJS += $(OBJS_DIR)/mindvision_camera.o $(OBJS_DIR)/systime.o
+
+CAMERA_SOURCE = $(WORKSPACE_FOLDER)/src/camera
+SOURCE = $(WORKSPACE_FOLDER)/src
+
+test_mindvision_camera:$(OBJS)
+	$(CXX) $(CFLAGS) $^ -o $(TARGET) $(INCLUDE) $(LIBS)
+
+$(OBJS_DIR)/test_mindvision_camera.o:test_mindvision_camera.cpp 
+	$(CXX) $(CFLAGS) -c $^ -o $@ $(INCLUDE) $(LIBS)
+
+$(OBJS_DIR)/mindvision_camera.o:$(CAMERA_SOURCE)/mindvision_camera.cpp
+	$(CXX) $(CFLAGS) -c $^ -o $@ $(INCLUDE) $(LIBS)
+
+$(OBJS_DIR)/systime.o:$(SOURCE)/systime.cpp
+	$(CXX) $(CFLAGS) -c $^ -o $@ $(INCLUDE) $(LIBS)
+
+.PHONY:
+
+clean:
+	rm -rf $(OBJS_DIR)/*
+	rm $(TARGET)
