@@ -1,3 +1,11 @@
+<!--
+ * @Copyright: © 2021, BeingGod. All rights reserved.
+ * @Author: BeingGod
+ * @Date: 2021-07-31 11:31:12
+ * @LastEditors: BeingGod
+ * @LastEditTime: 2021-07-31 11:42:03
+ * @Description: 
+-->
 # 迈德威视相机工具
 
 
@@ -25,7 +33,7 @@
 
 3. 如果出现下面的画面说明测试成功
 
-   ![gtk_demo](/home/beinggod/workspace/camera/asset/gtk_demo.png)
+   ![gtk_demo](https://github.com/BeingGod/YSU-RM-CamSDK/blob/main/asset/gtk_demo.png)
 
 
 

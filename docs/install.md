@@ -1,3 +1,11 @@
+<!--
+ * @Copyright: © 2021, BeingGod. All rights reserved.
+ * @Author: BeingGod
+ * @Date: 2021-07-31 11:31:12
+ * @LastEditors: BeingGod
+ * @LastEditTime: 2021-07-31 11:42:50
+ * @Description: 
+-->
 # 安装
 
 
@@ -39,7 +47,7 @@
 
 3. 如下说明USB相机测试成功
 
-   ![usb_test](/home/beinggod/workspace/RmCamSDK/asset/usb_test.png)
+   ![usb_test](https://github.com/BeingGod/YSU-RM-CamSDK/blob/main/asset/usb_test.png)
 
 
 
@@ -65,7 +73,7 @@
 
 3. 如下说明迈德威视相机测试成功
 
-   ![mindvision_test](/home/beinggod/workspace/RmCamSDK/asset/mindvision_test.png)
+   ![mindvision_test](https://github.com/BeingGod/YSU-RM-CamSDK/blob/main/asset/mindvision_test.png)
 
 
 
@@ -77,7 +85,7 @@
 
 2. 调用对应的函数接口（详细请参考`demo.cpp`）
 
-   ![demo](/home/beinggod/workspace/RmCamSDK/asset/demo.png)
+   ![demo](https://github.com/BeingGod/YSU-RM-CamSDK/blob/main/asset/demo.png)
 
 3. 编译时链接静态库（详细请参考`example/Makefile`）
 

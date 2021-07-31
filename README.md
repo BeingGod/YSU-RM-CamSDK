@@ -15,7 +15,7 @@
 
 ​	整体模块架构如下：
 
-![UML](/home/beinggod/workspace/RmCamSDK/asset/UML.png)
+![UML](https://github.com/BeingGod/YSU-RM-CamSDK/blob/main/asset/UML.png)
 
 1. CameraManager提供集成化访问各类相机设备的途径;
 2. 具体相机类继承Camera抽象相机类
@@ -70,11 +70,11 @@
 
 ## 帮助
 
-1. [安装](/home/beinggod/workspace/RmCamSDK/docs/install.md)
-3. 相机能力（待补充）
-4. [迈德威视相机工具](/home/beinggod/workspace/RmCamSDK/docs/mindvision_tools.md)
-4. [注意事项](/home/beinggod/workspace/RmCamSDK/docs/some_traps.md)
-7. [工业相机知识](/home/beinggod/workspace/RmCamSDK/docs/knowledge.md)
+1. [安装](https://github.com/BeingGod/YSU-RM-CamSDK/blob/main/docs/install.md)
+2. [相机能力（待补充）](https://github.com/BeingGod/YSU-RM-CamSDK/blob/main/docs/camera_capability.md)
+3. [迈德威视相机工具](https://github.com/BeingGod/YSU-RM-CamSDK/blob/main/docs/mindvision_tools.md)
+4. [注意事项](https://github.com/BeingGod/YSU-RM-CamSDK/blob/main/docs/some_traps.md)
+5. [工业相机知识](https://github.com/BeingGod/YSU-RM-CamSDK/blob/main/docs/knowledge.md)
 
 
 

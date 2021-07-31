@@ -6,7 +6,7 @@
 
 ​	被拍摄物体反射出的光线经过镜头进入相机，并照在感光元器件上，形成物像。直接影响成像质量的参数：1. 光照；2. 分辨率；3. 像素尺寸/靶面尺寸。
 
-![相机成像原理](/home/beinggod/workspace/RmCamSDK/asset/相机成像原理.png)
+![相机成像原理](https://github.com/BeingGod/YSU-RM-CamSDK/blob/main/asset/%E7%9B%B8%E6%9C%BA%E6%88%90%E5%83%8F%E5%8E%9F%E7%90%86.png)
 
 ​	简单原理介绍可以[观看视频](https://www.bilibili.com/video/BV1UK411n7gn?from=search&seid=12220851787811774578)。
 
@@ -46,7 +46,7 @@
 
 ​	比赛中，相机设备选型最终最重要的一个参数就是焦距，焦距的选取主要需要考虑三个因素：1. 物距 2. 像素尺寸 3. 视野范围。
 
-![焦距计算](/home/beinggod/workspace/RmCamSDK/asset/焦距计算.png)
+![焦距计算](https://github.com/BeingGod/YSU-RM-CamSDK/blob/main/asset/%E7%84%A6%E8%B7%9D%E8%AE%A1%E7%AE%97.png)
 
 ​	具体可以参考[这篇文章](https://zhuanlan.zhihu.com/p/59684549)
 
