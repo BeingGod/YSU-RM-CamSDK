@@ -1,3 +1,11 @@
+<!--
+ * @Copyright: © 2021, BeingGod. All rights reserved.
+ * @Author: BeingGod
+ * @Date: 2021-07-31 11:31:12
+ * @LastEditors: BeingGod
+ * @LastEditTime: 2021-07-31 11:57:17
+ * @Description: 
+-->
 # RM相机模块
 
 
@@ -70,7 +78,7 @@
 
 ## 帮助
 
-1. [安装](https://github.com/BeingGod/YSU-RM-CamSDK/blob/main/docs/install.md)
+1. [快速上手](https://github.com/BeingGod/YSU-RM-CamSDK/blob/main/docs/install.md)
 2. [相机能力（待补充）](https://github.com/BeingGod/YSU-RM-CamSDK/blob/main/docs/camera_capability.md)
 3. [迈德威视相机工具](https://github.com/BeingGod/YSU-RM-CamSDK/blob/main/docs/mindvision_tools.md)
 4. [注意事项](https://github.com/BeingGod/YSU-RM-CamSDK/blob/main/docs/some_traps.md)
