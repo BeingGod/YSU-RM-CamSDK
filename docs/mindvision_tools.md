@@ -3,7 +3,7 @@
  * @Author: BeingGod
  * @Date: 2021-07-31 11:31:12
  * @LastEditors: BeingGod
- * @LastEditTime: 2021-07-31 11:42:03
+ * @LastEditTime: 2021-07-31 11:45:26
  * @Description: 
 -->
 # 迈德威视相机工具
@@ -39,7 +39,7 @@
 
 ## 使用
 
-1. 调整参数，具体每个参数的含义以及影响建议参考[相机知识]()和[相机能力]()。
+1. 调整参数，具体每个参数的含义以及影响建议参考[相机知识](https://github.com/BeingGod/YSU-RM-CamSDK/blob/main/docs/knowledge.md)和[相机能力](https://github.com/BeingGod/YSU-RM-CamSDK/blob/main/docs/camera_capability.md)。
 
 2. 当调整完参数后，点击`Save`，`GTK_Demo\Camera\Configs`目录下会出现1个`.config`文件，该文件即为当前参数组的参数文件。
 3. 使用时导入其参数文件。
