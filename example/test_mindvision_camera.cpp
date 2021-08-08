@@ -3,7 +3,7 @@
  * @Author: BeingGod
  * @Date: 2021-07-15 23:44:30
  * @LastEditors: BeingGod
- * @LastEditTime: 2021-07-18 20:54:47
+ * @LastEditTime: 2021-08-08 22:12:52
  * @Description: 
  */
 
@@ -19,14 +19,14 @@ int main()
     if (!camera.init())
         exit(-1);
 
-    if (camera.setGroupProp(0, "/home/beinggod/workspace/camera/Camera/Configs/MV-SUA133GC-Group0.config"))
-    {// 更新参数组
-        LOGM("UPDATE SUCCESS");
-    }
-    else
-    {
-        LOGM("UPDATE FAILED");
-    }
+    // if (camera.setGroupProp(0, "/home/beinggod/workspace/camera/Camera/Configs/MV-SUA133GC-Group0.config"))
+    // {// 更新参数组
+    //     LOGM("UPDATE SUCCESS");
+    // }
+    // else
+    // {
+    //     LOGM("UPDATE FAILED");
+    // }
 
     int display = 10000;
 
