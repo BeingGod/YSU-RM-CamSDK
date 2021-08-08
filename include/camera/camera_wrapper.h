@@ -3,7 +3,7 @@
  * @Author: BeingGod
  * @Date: 2021-01-24 00:40:44
  * @LastEditors: BeingGod
- * @LastEditTime: 2021-07-30 17:13:57
+ * @LastEditTime: 2021-08-08 18:24:52
  * @Description: 抽象相机类,普通相机类,工业相机类声明
  * 
  * 添加宏定义CAMERA_MULTI可在不改变程序基础上使用生产者-消费者的多线程模式
@@ -15,12 +15,13 @@
 #define _CAMERA_WRAPPER_H_
 
 #include <opencv2/opencv.hpp>
-#include <CameraApi.h>
+#include <MVSDK/CameraApi.h>
+#include <utils/round_queue.h>
+#include <utils/systime.h>
+#include <utils/log.h>
 #include <status_code.h>
 #include <thread>
-#include <round_queue.h>
-#include <systime.h>
-#include <log.h>
+
 
 typedef unsigned int CameraId; // 设备ID
 
