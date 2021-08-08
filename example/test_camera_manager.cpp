@@ -3,7 +3,7 @@
  * @Author: BeingGod
  * @Date: 2021-07-30 11:24:29
  * @LastEditors: BeingGod
- * @LastEditTime: 2021-08-08 18:53:01
+ * @LastEditTime: 2021-08-08 22:09:17
  * @Description: 
  */
 
@@ -12,7 +12,7 @@
 int main(int argc,char** argv)
 {
     CameraManager cam_mana;
-    cam_mana.readCameraParam("./camera.xml");
+    cam_mana.readCameraParam(argv[1]);
     cam_mana.printAllCameraDevice();
     if (!cam_mana[2]->init())
         exit(-1);
