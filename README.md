@@ -28,70 +28,18 @@
 1. CameraManager提供集成化访问各类相机设备的途径;
 2. 具体相机类继承Camera抽象相机类
 
+## Reference
 
-
-## 项目架构
-
-```bash
-.
-├── asset // 资源
-│   ├── mindvision_linuxSDK.zip
-│   └── ...
-├── Camera // 迈德威视相机文件
-│   ├── Configs // 迈德威视相机参数文件
-│   │   ├── MV-SUA133GC-Group0.config
-│   │   └── ...
-│   ├── Data
-│   │   └── 049032410170.mvdat
-│   └── log
-├── camera.xml // 配置文件
-├── docs // 文档
-├── example // 示例代码
-├── include
-│   ├── camera
-│   │   ├── camera_manager.h
-│   │   └── camera_wrapper.h
-│   ├── log.h
-│   ├── round_queue.h
-│   ├── status_code.h
-│   └── systime.h
-├── load_env.sh // 配置环境变量
-├── Makefile 
-│   ├── Makefile.mindvision
-│   └── Makefile.usb
-├── obj // 编译中间文件
-├── lib // 生成静态库文件
-├── src 
-│   ├── camera
-│   │   ├── camera_manager.cpp
-│   │   ├── mindvision_camera.cpp
-│   │   └── usb_camera.cpp
-│   └── systime.cpp
-├── tools // 工具包
-│   └── GTK_Demo // 相机调参
-│       └── ...
-└── README.md
-
+使用doxygen在reference目录下生成APIs文档
 ```
-
-
-
-## 帮助
-
-1. [快速上手](https://github.com/BeingGod/YSU-RM-CamSDK/blob/main/docs/install.md)
-2. [相机能力（待补充）](https://github.com/BeingGod/YSU-RM-CamSDK/blob/main/docs/camera_capability.md)
-3. [迈德威视相机工具](https://github.com/BeingGod/YSU-RM-CamSDK/blob/main/docs/mindvision_tools.md)
-4. [注意事项](https://github.com/BeingGod/YSU-RM-CamSDK/blob/main/docs/some_traps.md)
-5. [工业相机知识](https://github.com/BeingGod/YSU-RM-CamSDK/blob/main/docs/knowledge.md)
-
-
+doxygen doc.dot
+```
 
 ## TODO
 
 3. LUT参数调整
 4. ROS模块开发
 5. 相机使能信息
-
 
 
 ## 反馈
