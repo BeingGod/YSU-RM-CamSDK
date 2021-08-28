@@ -1,10 +1,12 @@
-/*
- * @Copyright: © 2021, BeingGod. All rights reserved.
- * @Author: BeingGod
- * @Date: 2021-07-10 22:40:59
- * @LastEditors: BeingGod
- * @LastEditTime: 2021-07-16 00:06:34
- * @Description: 
+/**
+ * @file test_usb_camera.cpp
+ * @author BeingGod (1085779572@qq.com)
+ * @brief USBCamera测试程序
+ * @version 1.0
+ * @date 2021-08-29
+ * 
+ * @copyright Copyright (c) 2021
+ * 
  */
 
 #include <camera/camera_wrapper.h>
@@ -12,6 +14,7 @@
 #include <unistd.h>
 
 using namespace std;
+using namespace cam;
 
 int main()
 {

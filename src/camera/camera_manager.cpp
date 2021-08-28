@@ -1,15 +1,18 @@
-/*
- * @Copyright: © 2021, BeingGod. All rights reserved.
- * @Author: BeingGod
- * @Date: 2021-01-28 17:09:43
- * @LastEditors: BeingGod
- * @LastEditTime: 2021-08-08 18:08:57
- * @Description: 相机管理类具体实现
+/**
+ * @file camera_manager.cpp
+ * @author BeingGod (1085779572@qq.com)
+ * @brief 相机管理类实现
+ * @version 1.0
+ * @date 2021-08-29
+ * 
+ * @copyright Copyright (c) 2021
+ * 
  */
 
 #include <camera/camera_manager.h>
 
 using namespace std;
+using namespace cam;
 using namespace cv;
 
 CameraManager::~CameraManager()
@@ -41,7 +44,7 @@ bool CameraManager::addCameraDevice(Camera *ptr,string des)
 bool CameraManager::isCameraDeviceExist(CameraId id)
 {
     if (m_camera_list_.find(id) != m_camera_list_.end())
-    { // 该设备已存在
+    {// 该设备已存在
         LOGE("Camera ID:%u is already exists!", id);
         
         return true;

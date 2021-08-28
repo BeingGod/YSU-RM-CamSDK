@@ -1,13 +1,17 @@
-/*
- * @Copyright: © 2021, BeingGod. All rights reserved.
- * @Author: BeingGod
- * @Date: 2021-07-15 23:44:30
- * @LastEditors: BeingGod
- * @LastEditTime: 2021-08-08 22:12:52
- * @Description: 
+/**
+ * @file test_mindvision_camera.cpp
+ * @author BeingGod (1085779572@qq.com)
+ * @brief MindVisionCamera测试程序
+ * @version 1.0
+ * @date 2021-08-29
+ * 
+ * @copyright Copyright (c) 2021
+ * 
  */
 
 #include <camera/camera_wrapper.h>
+
+using namespace cam;
 
 int main()
 {

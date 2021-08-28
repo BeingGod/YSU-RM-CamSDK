@@ -1,13 +1,17 @@
-/*
- * @Copyright: © 2021, BeingGod. All rights reserved.
- * @Author: BeingGod
- * @Date: 2021-07-30 11:24:29
- * @LastEditors: BeingGod
- * @LastEditTime: 2021-08-08 22:09:17
- * @Description: 
+/**
+ * @file test_camera_manager.cpp
+ * @author BeingGod (1085779572@qq.com)
+ * @brief CameraManager测试程序
+ * @version 1.0
+ * @date 2021-08-29
+ * 
+ * @copyright Copyright (c) 2021
+ * 
  */
 
 #include <camera/camera_manager.h>
+
+using namespace cam;
 
 int main(int argc,char** argv)
 {

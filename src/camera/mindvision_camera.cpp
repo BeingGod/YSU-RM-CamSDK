@@ -1,10 +1,12 @@
-/*
- * @Copyright: © 2021, BeingGod. All rights reserved.
- * @Author: BeingGod
- * @Date: 2021-07-08 11:52:07
- * @LastEditors: BeingGod
- * @LastEditTime: 2021-07-30 17:55:00
- * @Description: 
+/**
+ * @file mindvision_camera.cpp
+ * @author BeingGod (1085779572@qq.com)
+ * @brief 迈得威视工业相机类实现
+ * @version 1.0
+ * @date 2021-08-29
+ * 
+ * @copyright Copyright (c) 2021
+ * 
  */
 
 #include <camera/camera_wrapper.h>
@@ -12,6 +14,7 @@
 #include <unistd.h>
 
 using namespace std;
+using namespace cam;
 using namespace cv;
 
 static bool check(int status)

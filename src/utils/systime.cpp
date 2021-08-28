@@ -1,10 +1,12 @@
-/*
- * @Copyright: © 2021, BeingGod. All rights reserved.
- * @Author: BeingGod
- * @Date: 2021-01-21 21:04:53
- * @LastEditors: BeingGod
- * @LastEditTime: 2021-08-08 18:24:12
- * @Description: 统一跨平台毫秒级计时函数
+/**
+ * @file systime.cpp
+ * @author BeingGod (1085779572@qq.com)
+ * @brief 统一跨平台毫秒级计时函数
+ * @version 1.0
+ * @date 2021-08-29
+ * 
+ * @copyright Copyright (c) 2021
+ * 
  */
 
 #include <utils/systime.h>

@@ -1,10 +1,12 @@
-/*
- * @Copyright: © 2021, BeingGod. All rights reserved.
- * @Author: BeingGod
- * @Date: 2021-01-24 00:40:44
- * @LastEditors: BeingGod
- * @LastEditTime: 2021-07-30 17:53:27
- * @Description: 普通相机类实现
+/**
+ * @file usb_camera.cpp
+ * @author BeingGod (1085779572@qq.com)
+ * @brief 普通相机类实现
+ * @version 1.0
+ * @date 2021-08-29
+ * 
+ * @copyright Copyright (c) 2021
+ * 
  */
 
 #include <camera/camera_wrapper.h>
@@ -12,6 +14,7 @@
 #include <thread>
 
 using namespace cv;
+using namespace cam;
 using namespace std;
 
 USBCamera::USBCamera(int id, int video_index, int width, int height, int fps)

@@ -1,16 +1,18 @@
-/*
- * @Copyright: © 2021, BeingGod. All rights reserved.
- * @Author: BeingGod
- * @Date: 2021-07-08 17:15:13
- * @LastEditors: BeingGod
- * @LastEditTime: 2021-07-10 23:07:45
- * @Description: 
+/**
+ * @file systime.h
+ * @author BeingGod (1085779572@qq.com)
+ * @brief 统一跨平台毫秒级计时函数
+ * @version 1.0
+ * @date 2021-08-29
+ * 
+ * @copyright Copyright (c) 2021
+ * 
  */
 
 #ifndef _SYS_TIME_H_
 #define _SYS_TIME_H_
 
-typedef double Systime; // 时间戳
+typedef double Systime; //!< 时间戳
 
 void getSystime(Systime &t);
 double getTimeIntervalms(const Systime &now, const Systime &last);

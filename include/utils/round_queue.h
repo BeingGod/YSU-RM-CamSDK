@@ -1,15 +1,22 @@
-/*
- * @Copyright: © 2021, BeingGod. All rights reserved.
- * @Author: BeingGod
- * @Date: 2021-07-08 17:27:09
- * @LastEditors: BeingGod
- * @LastEditTime: 2021-07-10 23:00:58
- * @Description: 定制化循环队列
+/**
+ * @file round_queue.h
+ * @author BeingGod (1085779572@qq.com)
+ * @brief 定制化循环队列
+ * @version 1.0
+ * @date 2021-08-29
+ * 
+ * @copyright Copyright (c) 2021
+ * 
  */
 
 #ifndef _ROUND_QUEUE_H_
 #define _ROUND_QUEUE_H_
 
+/**
+ * @brief 定制化的循环队列 
+ * 
+ * @tparam T 容器中数据类型
+ */
 template<class T>
 class RoundQueue
 {
@@ -54,9 +61,9 @@ public:
     }
 
 private:
-    int m_front_; // 队头元素下标
-    int m_rear_; // 队尾元素下标
-    int m_size_; // 队列容量
+    int m_front_; //!< 队头元素下标
+    int m_rear_;  //!< 队尾元素下标
+    int m_size_;  //!< 队列容量
 };
 
 #endif
