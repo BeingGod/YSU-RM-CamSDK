@@ -1,10 +1,12 @@
-/*
- * @Copyright: © 2021, BeingGod. All rights reserved.
- * @Author: BeingGod
- * @Date: 2021-01-28 17:01:42
- * @LastEditors: BeingGod
- * @LastEditTime: 2021-08-29 00:29:25
- * @Description: 相机管理类
+/**
+ * @file camera_manager.h
+ * @author BeingGod (1085779572@qq.com)
+ * @brief 相机管理类
+ * @version 1.0
+ * @date 2021-08-29
+ * 
+ * @copyright Copyright (c) 2021
+ * 
  */
 
 #ifndef _CAMERA_MANAGER_H_
@@ -22,7 +24,8 @@ namespace cam
 
     /**
      * @brief 相机管理类
-     * 功能：
+     * 
+     * @details 
      *  1.xml配置文件创建相机设备
      *  2.统一相机设备管理
      * 
